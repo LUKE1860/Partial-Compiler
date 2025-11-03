@@ -3,7 +3,7 @@
 
 ## 2. AFTER INSTALLATION INVOKE COMMAND IN THE COMMAND PROMPT
 ```
-meson setup builddir
+ meson setup --wipe --vsenv  builddir
 ```
 ## 3. MOVE TXT FILES TO BUILDDIR
 ```
