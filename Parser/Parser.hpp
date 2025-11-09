@@ -39,7 +39,9 @@ public:
 	Parser(const std::string& token_string) {
 		this->token_string = token_string;
 	}
-
+	std::vector<std::tuple<TokenType,std::string>> get_tokens(){
+		return tokens;
+	}
 	void parse_tokens() {
 		std::vector<std::tuple<TokenType, std::string>> token_tree;
 		std::string content;
@@ -92,5 +94,11 @@ public:
 		}
 	}
 };
-
-
+//PLACE FOR AST
+class AST{
+ std::vector<std::tuple<TokenType,std::string>> tokens;
+ std::string file_string;
+	AST( std::vector<std::tuple<TokenType,std::string>> tokens){
+		this->tokens=tokens;
+	}
+};

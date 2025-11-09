@@ -5,9 +5,9 @@ void check(){
         MOV AL,20
         MOV a,AL
     }
-    printf("%d",a)
+    printf("%d",a);
 
 }
 int main(){
-    check();
+check();
 }
