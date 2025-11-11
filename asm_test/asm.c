@@ -8,6 +8,27 @@ void check(){
     printf("%d",a);
 
 }
+void add(){
+
+}
+void substract(){
+
+}
+void multiply(){
+}
+void double_add(){
+
+}
+void double_substract(){
+
+}
+void double_multiply(){
+
+}
 int main(){
+FILE *fptr;
+FILE *sptr;
+FILE *tptr;
+fptr=fopen("");
 check();
 }
