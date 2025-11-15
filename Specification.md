@@ -1,3 +1,6 @@
+# ARGUMENTS
+int name //int
+unsigned name //unsigned
 # VARIABLE DECLARATION
 let a=30u; // unsigned
 let b=30i; //int 
